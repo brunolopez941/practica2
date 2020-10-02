@@ -57,7 +57,7 @@ Entendí que para valores menores o mayores a x, es false, y cuando son iguales 
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**O(n) donde n es el número de comparaciones que hará el algoritmo, pero siempre se deben de hacer las n operaciones ya que pide encontrar cuales valores son iguales y cuales no**
 
 ### Algoritmo 3
 ```
@@ -88,4 +88,4 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**O(n^2) esto porque ahce una revisión a la par, en los valores "x" y en los "y". Siempre recorreremos todos los valores de y en busca de los valores de x (no hay un limite de números x repetidos en y**
