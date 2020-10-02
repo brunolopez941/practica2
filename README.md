@@ -28,7 +28,7 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**O(n) donde n es el número de veces de 1 hasta y, y siempre se deben de recorrer n veces**
 
 ### Algoritmo 2
 ```
@@ -49,10 +49,10 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 
 |x|valores|resultado|
 |-|-|-|
-|4|[1, 2, 4, 7, 9]|**Tu respuesta aquí**|
-|9|[1, 3, 5, 6, 7]|**Tu respuesta aquí**|
-|3|[5, 6, 7, 8, 9, 10]|**Tu respuesta aquí**|
-
+|4|[1, 2, 4, 7, 9]|**false,false,true,false,false**|
+|9|[1, 3, 5, 6, 7]|**false,false,false,false,false**|
+|3|[5, 6, 7, 8, 9, 10]|**false,false,false,false,false,false**|
+Entendí que para valores menores o mayores a x, es false, y cuando son iguales es true.
 
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
@@ -80,9 +80,9 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 
 |valores_x|valores_y|resultado|
 |-|-|-|
-|[1, 2, 3]|[1, 2, 3, 4, 5]|**Tu respuesta aquí**|
-|[2, 4]|[7, 5, 2, 8, 3]|**Tu respuesta aquí**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**Tu respuesta aquí**|
+|[1, 2, 3]|[1, 2, 3, 4, 5]|**true,true,true**|
+|[2, 4]|[7, 5, 2, 8, 3]|**true,false**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**true,true,true**|
 
 
 ##### Complejidad
