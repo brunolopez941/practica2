@@ -52,6 +52,7 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 |4|[1, 2, 4, 7, 9]|**false,false,true,false,false**|
 |9|[1, 3, 5, 6, 7]|**false,false,false,false,false**|
 |3|[5, 6, 7, 8, 9, 10]|**false,false,false,false,false,false**|
+
 Entendí que para valores menores o mayores a x, es false, y cuando son iguales es true.
 
 ##### Complejidad
@@ -88,4 +89,4 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**O(n^2) esto porque ahce una revisión a la par, en los valores "x" y en los "y". Siempre recorreremos todos los valores de y en busca de los valores de x (no hay un limite de números x repetidos en y**
+**O(n^2) esto porque hace una revisión a la par, en los valores "x" y en los "y". Siempre recorremos todos los valores de y en busca de los valores de x (no hay un limite de números x repetidos en y)**
