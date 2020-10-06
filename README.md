@@ -89,4 +89,4 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**O(n^2) esto porque hace una revisión a la par, en los valores "x" y en los "y". Pero también podremos encontrar un true en el primer valor de y, por lo que de mínimo, haremos 3 operaciones (y en el caso del segundo, dos) por lo que tenemos un límite inferior de Ω(1)**
+**Θ(n^2) esto, porque hace una revisión a la par, en los valores "x" y en los "y". Pero también podremos encontrar un true en el primer valor de y, por lo que, mínimo, haremos 3 operaciones (y en el caso del segundo, dos) así que tenemos un límite inferior de Ω(1)**
